@@ -1,0 +1,232 @@
+{
+  "institutions": [
+    {
+      "id": "inst-st-xavier",
+      "name": "St. Xavier's Academy",
+      "type": "School",
+      "address": "12 Mother Teresa Sarani, Kolkata, West Bengal",
+      "email": "info@xavieracademy.edu",
+      "principalName": "Dr. Albert D'Souza",
+      "code": "XAVIER101",
+      "logoText": "SX",
+      "status": "active",
+      "departments": [
+        "Science",
+        "Commerce",
+        "Arts"
+      ],
+      "createdAt": "2026-06-08T06:06:34.710Z"
+    },
+    {
+      "id": "inst-rv-college",
+      "name": "RV College of Engineering",
+      "type": "College",
+      "address": "Mysore Road, Bengaluru, Karnataka",
+      "email": "principal@rvce.edu.in",
+      "principalName": "Dr. Subramanya K.",
+      "code": "RVCE2025",
+      "logoText": "RV",
+      "status": "active",
+      "departments": [
+        "Computer Science",
+        "Electronics",
+        "Mechanical",
+        "Biotechnology"
+      ],
+      "createdAt": "2026-06-08T06:06:34.710Z"
+    },
+    {
+      "id": "inst-pending",
+      "name": "DPS International School",
+      "type": "School",
+      "address": "Vasant Kunj, New Delhi",
+      "email": "admissions@dps.edu",
+      "principalName": "Sujata Roy",
+      "code": "DPSDELHI",
+      "logoText": "DP",
+      "status": "pending",
+      "departments": [
+        "Primary",
+        "Secondary",
+        "Senior Secondary"
+      ],
+      "createdAt": "2026-06-08T06:06:34.710Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "u-1",
+      "username": "superadmin",
+      "email": "admin@academicplatform.com",
+      "role": "super_admin"
+    },
+    {
+      "id": "u-2",
+      "username": "xavierprincipal",
+      "email": "dsouza@xavier.edu",
+      "role": "principal",
+      "institutionId": "inst-st-xavier"
+    },
+    {
+      "id": "u-3",
+      "username": "rvceprincipal",
+      "email": "subramanya@rvce.edu",
+      "role": "principal",
+      "institutionId": "inst-rv-college"
+    },
+    {
+      "id": "u-4",
+      "username": "cs-staff-anand",
+      "email": "anand.m@rvce.edu",
+      "role": "staff",
+      "institutionId": "inst-rv-college",
+      "department": "Computer Science"
+    },
+    {
+      "id": "u-5",
+      "username": "xavier-staff-sarah",
+      "email": "sarah@xavier.edu",
+      "role": "staff",
+      "institutionId": "inst-st-xavier",
+      "department": "Science"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc-xav-fees",
+      "name": "xavier_academy_fee_structure_2026.pdf",
+      "fileType": "pdf",
+      "category": "Fees",
+      "textContent": "ST. XAVIER'S ACADEMY FEE STRUCTURE 2026-2027\n      Tuition Fees (Paid quarterly):\n      - Class 1 to 5 (Primary): ₹12,000 per term\n      - Class 6 to 10 (Secondary): ₹15,000 per term\n      - Class 11 and 12 (Higher Secondary): Science - ₹18,000 per term, Commerce/Arts - ₹16,500 per term\n      \n      Laboratory Fee (Applicable for Science stream):\n      - ₹2,500 per annum\n      \n      Library and Sports Maintenance Charge:\n      - ₹1,200 per annum (due before school opens)\n      \n      Smart Classroom & Digital Infrastructure Fee:\n      - ₹1,800 paid once at the start of the academic year.\n      \n      Late Fee Fine Policy:\n      A fine of ₹100 per week is levied if bills are outstanding past 15 days from the due date. Standard quarterly dues are payable by: Q1 (April 15), Q2 (July 15), Q3 (October 15), Q4 (January 15).\n      Discount Schemes: Parents with sibling enrolments are eligible for a 10% fee concession on the younger sibling's tuition.",
+      "sizeKb": 245,
+      "uploadedBy": "Dr. Albert D'Souza",
+      "uploadedAt": "2026-04-10T10:00:00Z",
+      "institutionId": "inst-st-xavier"
+    },
+    {
+      "id": "doc-xav-timetable",
+      "name": "St_Xavier_Class_10_Timetable.pdf",
+      "fileType": "pdf",
+      "category": "Timetable",
+      "textContent": "ST. XAVIER'S ACADEMY CLASS X SCIENCE & COMMERCE TIMETABLE\n      Daily school timings: 08:30 AM to 02:45 PM\n      Assembly: 08:30 AM to 08:45 AM\n      \n      LUNCH HOUR: 12:00 PM to 12:45 PM\n      \n      Monday schedule:\n      - Period 1 (08:45-09:40): Mathematics with Mrs. Sarah Paul (CS Lab)\n      - Period 2 (09:40-10:35): Chemistry with Mr. Sen (Chemistry Lab)\n      - Period 3 (10:35-11:30): English prose with Ms. Emily\n      - Period 4 (11:30-12:00): Biology with Dr. Joshi\n      - Period 5 (12:45-01:40): History & Civics with Mr. Banerjee\n      - Period 6 (01:40-02:45): Games / Physical Education\n      \n      Friday schedule:\n      - Period 1 (08:45-09:40): Computer Sciences (Lab A)\n      - Period 2 (09:40-10:35): Physics theory with Mr. Shah\n      - Period 3 (10:35-11:30): Mathematics tutorial\n      - Period 4 (11:30-12:00): Value Education / General Knowledge\n      - Period 5 (12:45-01:40): Geography\n      - Period 6 (01:40-02:45): Library / Remedial Coaching session.",
+      "sizeKb": 180,
+      "uploadedBy": "Dr. Albert D'Souza",
+      "uploadedAt": "2026-05-15T11:00:00Z",
+      "institutionId": "inst-st-xavier"
+    },
+    {
+      "id": "doc-rv-cs-placement",
+      "name": "RVCE_Computer_Science_Placements_2025.pdf",
+      "fileType": "pdf",
+      "category": "Placements",
+      "textContent": "RV COLLEGE OF ENGINEERING (RVCE) PLACEMENT STATISTICS 2024-2025 (DEPT OF COMPUTER SCIENCE)\n      Core Recruitment Committee: Prof. Anand Murthy (Placement Director)\n      Annual placements concluded successfully with a 98% placement rate for graduating CSE seniors.\n      \n      Notable Packages Recorded:\n      - Highest Domestic CTC Offer: ₹48.5 LPA (Offered by Microsoft India IDC R&D)\n      - Highest International CTC Offer: ₹1.2 Crore Japanese Yen (Offered by Mercari Corporation, Tokyo)\n      - Median Salary Tier: ₹14.2 LPA\n      - Average CTC for Computer Science Engineering: ₹16.8 LPA\n      \n      Top Recruiter Volume:\n      1. Amazon Web Services (AWS) - 24 selections\n      2. Infosys (Specialist Programmer grade) - 38 selections\n      3. Bosch Engineering - 18 selections\n      4. Goldman Sachs (Bengaluru) - 14 selections\n      5. NVIDIA Robotics Division - 8 selections\n      \n      Eligibility Rules for College Placements:\n      Students must maintain a minimum Cumulative GPA (CGPA) of 7.25 and must have cleared all backlogs in semester end evaluations. No disciplinary proceedings must be pending. Professional internship programs start from Semester VII with a stipend range of ₹35,000 to ₹85,000 per month.",
+      "sizeKb": 389,
+      "uploadedBy": "Academic Cell",
+      "uploadedAt": "2026-03-24T09:30:00Z",
+      "institutionId": "inst-rv-college"
+    },
+    {
+      "id": "doc-rv-faculty-rules",
+      "name": "rvce_faculty_handbook_and_attendance_rules.docx",
+      "fileType": "docx",
+      "category": "Circulars",
+      "textContent": "RV COLLEGE OF ENGINEERING - HANDBOOK FOR ACADEMICS & DISCIPLINE\n      Section A: Mandatory Attendance Directives for Students\n      - Every student is legally bound to secure of not less than 85% attendance in both lectures, tutorials and practical clinics separately.\n      - General condonations: Students representation on sports or model events can request condonations up to 10% supported strictly with Director authentication. Minimum absolute limit under medical emergencies is 75%, certified with official government physician letter.\n      - Failure to meet attendance threshold will result in instant barring from booking the Semester End Examinations (SEE). No repeat internal assessments are offered.\n      \n      Section B: Key Core Faculty Registry\n      1. Computer Science Engineering:\n         - HOD: Dr. Divya R. S. (Office: IT Block 302, email: divyars@rvce.edu.in)\n         - Dr. Prasanna Kumar (Database systems expert)\n         - Prof. Meena Sharma (Software Engineering)\n         \n      2. Electronics & Communication:\n         - HOD: Dr. R. K. Shanthi (Office: Telecom Annex, email: rks@rvce.edu.in)\n         - Dr. Vivek Kumar (VLSI systems and digital signals)\n         \n      3. Principal Academic Contact:\n         - Dr. Subramanya K. (Office of the Principal, Administrative Tower ground floor, appointment desk extension: 104).",
+      "sizeKb": 112,
+      "uploadedBy": "Academic Cell",
+      "uploadedAt": "2026-05-12T14:20:00Z",
+      "institutionId": "inst-rv-college"
+    },
+    {
+      "id": "doc-rv-fees",
+      "name": "rvce_engineering_fee_structure_2026.pdf",
+      "fileType": "pdf",
+      "category": "Fees",
+      "textContent": "RV COLLEGE OF ENGINEERING (RVCE) FEE STRUCTURE 2026-2027\n      Tuition Fees for B.E. Programs per Annum (Computer Science, Electronics, Mechanical, Biotechnology):\n      - Government Quota (KCET Ingress): ₹1,25,000 per academic year\n      - Private Entrance Quota (COMEDK Selected): ₹2,45,000 per academic year\n      - Management Seats Quota:\n        - Computer Science & Engineering (CSE): ₹8,00,000 per academic year\n        - Electronics & Communication (ECE): ₹4,00,000 per academic year\n        - Mechanical / Biotechnology: ₹2,50,000 per academic year\n      \n      Mandatory Examination & Board Registration Fees:\n      - ₹2,500 payable quarterly per semester cycle.\n      \n      Laboratory, Digital Library & Miscellaneous Sports Maintenance Dues:\n      - ₹15,000 per annum (due before academic boot block commences).\n      \n      Campus Hostel Accommodation & Mess Boarding Charges:\n      - ₹1,10,000 per annum (includes vegetarian catering, Wi-Fi connectivity & laundry access).\n      \n      Fee Waiver and Concession Schemes:\n      - Merit-based Scholarship: 25% waive off on tuition fees for students maintaining CGPA > 9.50.\n      - Sibling Concession: 15% discount on Management Quota fees for younger siblings currently enrolled at RVCE.",
+      "sizeKb": 310,
+      "uploadedBy": "Dr. Subramanya K.",
+      "uploadedAt": "2026-04-12T10:15:00Z",
+      "institutionId": "inst-rv-college"
+    },
+    {
+      "id": "doc-xav-faculty",
+      "name": "xavier_faculty_directory_and_contacts.pdf",
+      "fileType": "pdf",
+      "category": "Academic",
+      "textContent": "ST. XAVIER'S ACADEMY CORE FACULTY DIRECTORY & OFFICE DIRECTS\n      1. School Administrative Principal Cell:\n         - Principal Name: Dr. Albert D'Souza (Email: dsouza@xavier.edu)\n         - Office: Main Building, Ground Floor, Room 102\n         - Direct Extension: 12 (Schedule meeting bookings via administrative office)\n      \n      2. Secondary School Department leads:\n         - Science HOD / Chemistry: Mrs. Sarah Paul (Email: sarah@xavier.edu, Biology lab 204)\n         - Mathematics senior specialist: Mr. Sen (Office: Block B room 301, email: ksen@xavier.edu)\n         - English Prose Division: Ms. Emily Dickinson (Office: Block B room 110)\n         - Biology Division: Dr. Joshi (Office: Bio Lab block B room 205)\n         - History & Social Civics Specialist: Mr. Banerjee (Office: Block A room 212)",
+      "sizeKb": 155,
+      "uploadedBy": "Dr. Albert D'Souza",
+      "uploadedAt": "2026-05-18T09:20:00Z",
+      "institutionId": "inst-st-xavier"
+    }
+  ],
+  "notices": [
+    {
+      "id": "not-1",
+      "title": "Science Exhibition Registration 2026",
+      "content": "All secondary students are invited to register their science fair projects before June 15th, 2026. Cash awards of up to ₹10,000 for top three models! Contact your class teacher for register details.",
+      "category": "Events",
+      "department": "Science",
+      "date": "2026-06-01",
+      "institutionId": "inst-st-xavier",
+      "isUrgent": true
+    },
+    {
+      "id": "not-2",
+      "title": "Annual Fee Structure Revision Memo",
+      "content": "The governing council has finalized the fee schedule for the Academic Year 2026-27. Term fees have been adjusted by 5% to support the construction of new laboratory complexes. Please view the fees document in your portal.",
+      "category": "Fees",
+      "date": "2026-05-28",
+      "institutionId": "inst-st-xavier"
+    },
+    {
+      "id": "not-3",
+      "title": "Odd Semester Semester Exams Timetable",
+      "content": "Computer Science and Mechanical department exams will commence from July 5th, 2026. Theoretical papers take place in block C, practicals in respective laboratories. Standard attendance cutoff of 75% applies.",
+      "category": "Exams",
+      "department": "Computer Science",
+      "date": "2026-06-03",
+      "institutionId": "inst-rv-college",
+      "isUrgent": true
+    }
+  ],
+  "alerts": [
+    {
+      "id": "al-1",
+      "title": "Semester Exams Registration Portal Active",
+      "content": "Please pay exam registration fee on or before June 20th to avoid supplementary charges.",
+      "type": "urgent",
+      "date": "2026-06-03",
+      "institutionId": "inst-rv-college"
+    },
+    {
+      "id": "al-2",
+      "title": "Rain Holiday Advisory June 4th",
+      "content": "As per collector directive, school was closed on June 4th due to cyclonic alerts. Classes resume tomorrow.",
+      "type": "announcement",
+      "date": "2026-06-04",
+      "institutionId": "inst-st-xavier"
+    }
+  ],
+  "chats": [
+    {
+      "id": "ch-1",
+      "institutionId": "inst-st-xavier",
+      "userRole": "student_parent",
+      "question": "What are the fees for class 11 science?",
+      "answer": "According to the official St. Xavier's Academy Fee Structure, the Tuition Fees for Class 11 and 12 Science stream is ₹18,000 per term. In addition, science students must pay a mandatory Laboratory Fee of ₹2,500 per annum, alongside a Smart Classroom charge of ₹1,800 paid once at the start of the year.",
+      "timestamp": "2026-06-04T12:00:00Z"
+    },
+    {
+      "id": "ch-2",
+      "institutionId": "inst-rv-college",
+      "userRole": "student_parent",
+      "question": "What attendance is needed to write exams?",
+      "answer": "As per the RVCE Academic Handbook, students must maintain a minimum of 85% attendance across lectures, tutorials, and practicals. Under certified medical emergencies or official sports representation with authorization, condonations of up to 10% may be granted, reducing the absolute minimum requirement to 75%. Failing this leads to exam debarment.",
+      "timestamp": "2026-06-04T14:30:00Z"
+    }
+  ],
+  "config": {
+    "platformTitle": "Multi-Tenant AI Academic Assistant",
+    "maintenance": false
+  }
+}

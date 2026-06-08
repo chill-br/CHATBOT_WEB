@@ -1,0 +1,6 @@
+{
+  "name": "Multi-Tenant AI Academic Assistant",
+  "description": "A centralized server-side Gemini RAG-powered school and college management console and question answering assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
